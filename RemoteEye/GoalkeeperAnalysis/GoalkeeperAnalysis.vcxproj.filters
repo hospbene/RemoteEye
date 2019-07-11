@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{52f5fb36-4ff2-4b96-b0ec-91cc17d65dc0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{eb6f5f6c-c278-4474-a434-a82a6021888d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\ReleaseBHO">
+      <UniqueIdentifier>{407f89f9-753e-4b17-a33f-f66bde6c6aa0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Other">
+      <UniqueIdentifier>{788cd432-9ddb-4ef5-8991-f6d76a468028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gazeestimation">
+      <UniqueIdentifier>{c31e3795-226a-4f37-a3bc-fb017111ed8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gazeestimation">
+      <UniqueIdentifier>{8b730eaf-d960-4659-b2c6-82dcd11d4edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\RelWithDebugInfo">
+      <UniqueIdentifier>{3b87f147-dee3-4238-abe3-bafc19e3a938}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_GoalkeeperAnalysis.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="uEyeCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CalibrationPatternGenerators.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CalibrationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CalibrationDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CalibrationDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseBHO\moc_CalibrationDialog.cpp">
+      <Filter>Generated Files\ReleaseBHO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoCaptureSession.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UEyePollingThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoFilePollingThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GoalkeeperAnalysis.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GoalkeeperAnalysis.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseBHO\moc_GoalkeeperAnalysis.cpp">
+      <Filter>Generated Files\ReleaseBHO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GoalkeeperAnalysis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\VideoWriterThread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DetectorCode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GazeEstimationAdapter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GazeEstimationCpp\GazeEstimationTypes.cpp">
+      <Filter>Source Files\Gazeestimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GazeEstimationCpp\GenericCalibration.cpp">
+      <Filter>Source Files\Gazeestimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GazeEstimationCpp\MathTypes.cpp">
+      <Filter>Source Files\Gazeestimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GazeEstimationCpp\OneCameraSpherical.cpp">
+      <Filter>Source Files\Gazeestimation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\GazeEstimationCpp\TwoCameraSpherical.cpp">
+      <Filter>Source Files\Gazeestimation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Calibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\RelWithDebugInfo\moc_CalibrationDialog.cpp">
+      <Filter>Generated Files\RelWithDebugInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\RelWithDebugInfo\moc_GoalkeeperAnalysis.cpp">
+      <Filter>Generated Files\RelWithDebugInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="src\OutputMethods.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LiveGazeDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\RelWithDebugInfo\moc_LiveGazeDisplay.cpp">
+      <Filter>Generated Files\RelWithDebugInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LiveGazeDisplay.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LiveGazeDisplay.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseBHO\moc_LiveGazeDisplay.cpp">
+      <Filter>Generated Files\ReleaseBHO</Filter>
+    </ClCompile>
+    <ClCompile Include="src\IntermediateTypes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CalibrationTrainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PupilDetection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ProfilingMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CalibrationPointAggregates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputFeaturesDisplay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\RelWithDebugInfo\moc_InputFeaturesDisplay.cpp">
+      <Filter>Generated Files\RelWithDebugInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InputFeaturesDisplay.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InputFeaturesDisplay.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseBHO\moc_InputFeaturesDisplay.cpp">
+      <Filter>Generated Files\ReleaseBHO</Filter>
+    </ClCompile>
+    <ClCompile Include="MAFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BHOKalmanFilter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="GoalkeeperAnalysis.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\CalibrationDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\CalibrationDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\GoalkeeperAnalysis.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\GoalkeeperAnalysis.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\LiveGazeDisplay.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="src\InputFeaturesDisplay.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="uEyeCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DetectorCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CalibrationPatternGenerators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CalibrationDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoCaptureSession.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UEyePollingThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoFilePollingThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_GoalkeeperAnalysis.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\VideoWriterThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\IntermediateTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\algo_fwd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GazeEstimationAdapters.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GazeEstimationCpp\GazeEstimationTypes.hpp">
+      <Filter>Header Files\Gazeestimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GazeEstimationCpp\GenericCalibration.hpp">
+      <Filter>Header Files\Gazeestimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GazeEstimationCpp\MathTypes.hpp">
+      <Filter>Header Files\Gazeestimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GazeEstimationCpp\OneCameraSpherical.hpp">
+      <Filter>Header Files\Gazeestimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GazeEstimationCpp\PinholeCameraModel.hpp">
+      <Filter>Header Files\Gazeestimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GazeEstimationCpp\SharedCalculations.hpp">
+      <Filter>Header Files\Gazeestimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GazeEstimationCpp\TwoCameraSpherical.hpp">
+      <Filter>Header Files\Gazeestimation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GazeEstimationCpp\Utils.hpp">
+      <Filter>Header Files\Gazeestimation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Calibration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\OutputMethods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CalibrationTrainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PupilDetection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="elifitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ProfilingMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SparseInputImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CalibrationPointAggregates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MAFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kalman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BHOKalmanFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

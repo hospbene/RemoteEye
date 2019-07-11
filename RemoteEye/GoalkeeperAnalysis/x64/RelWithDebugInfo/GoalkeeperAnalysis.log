@@ -1,0 +1,1523 @@
+﻿  Moc'ing src\CalibrationDialog.h...
+  Moc'ing src\GoalkeeperAnalysis.h...
+  Moc'ing src\InputFeaturesDisplay.h...
+  Moc'ing src\LiveGazeDisplay.h...
+  Rcc'ing GoalkeeperAnalysis.qrc...
+RCC : warning : No resources in 'D:\RemoteEye2019\RemoteEye\GoalkeeperAnalysis\GoalkeeperAnalysis.qrc'.
+  
+  Uic'ing src\CalibrationDialog.ui...
+  Uic'ing src\GoalkeeperAnalysis.ui...
+  GazeEstimationTypes.cpp
+  GenericCalibration.cpp
+  MathTypes.cpp
+  OneCameraSpherical.cpp
+d:\remoteeye2019\gazeestimationcpp\onecameraspherical.cpp(93): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+d:\remoteeye2019\gazeestimationcpp\onecameraspherical.cpp(115): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(141): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(95): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::DynamicNumericDiffCostFunction<gazeestimation::DistanceBetweenCorneasFunctor,ceres::CENTRAL>::Evaluate(const double *const *,double *,double **) const-Memberfunktion
+  d:\remoteeye2019\gazeestimationcpp\onecameraspherical.cpp(86): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "ceres::DynamicNumericDiffCostFunction<gazeestimation::DistanceBetweenCorneasFunctor,ceres::CENTRAL>", die kompiliert wird.
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(149): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(149): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(101): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianForParameterBlock(const CostFunctor *,const double *,const ceres::NumericDiffOptions &,int,int,int,double **,double *)-Memberfunktion
+          with
+          [
+              CostFunctor=gazeestimation::DistanceBetweenCorneasFunctor
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(129): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianForParameterBlock(const CostFunctor *,const double *,const ceres::NumericDiffOptions &,int,int,int,double **,double *)".
+          with
+          [
+              CostFunctor=gazeestimation::DistanceBetweenCorneasFunctor
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(133): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>", die kompiliert wird.
+          with
+          [
+              CostFunctor=gazeestimation::DistanceBetweenCorneasFunctor
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(95): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::DynamicNumericDiffCostFunction<gazeestimation::DistanceBetweenCorneasFunctor,ceres::CENTRAL>::Evaluate(const double *const *,double *,double **) const-Memberfunktion
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(164): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(164): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(233): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(233): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(206): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianColumn(const CostFunctor *,int,double,int,int,const double *,const double *,double **,double *,double *,double *)-Memberfunktion
+          with
+          [
+              CostFunctor=gazeestimation::DistanceBetweenCorneasFunctor
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(178): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianColumn(const CostFunctor *,int,double,int,int,const double *,const double *,double **,double *,double *,double *)".
+          with
+          [
+              CostFunctor=gazeestimation::DistanceBetweenCorneasFunctor
+          ]
+  TwoCameraSpherical.cpp
+d:\remoteeye2019\gazeestimationcpp\twocameraspherical.cpp(36): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+d:\remoteeye2019\gazeestimationcpp\twocameraspherical.cpp(36): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "const unsigned int", Datenverlust möglich
+d:\remoteeye2019\gazeestimationcpp\twocameraspherical.cpp(98): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\gazeestimationcpp\twocameraspherical.cpp(131): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "unsigned int", Datenverlust möglich
+d:\remoteeye2019\gazeestimationcpp\twocameraspherical.cpp(131): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "const unsigned int", Datenverlust möglich
+d:\remoteeye2019\gazeestimationcpp\twocameraspherical.cpp(145): warning C4244: "Argument": Konvertierung von "unsigned __int64" in "const double", möglicher Datenverlust
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(141): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(95): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::DynamicNumericDiffCostFunction<gazeestimation::ROptimizingCorneaDistance,ceres::CENTRAL>::Evaluate(const double *const *,double *,double **) const-Memberfunktion
+  d:\remoteeye2019\gazeestimationcpp\twocameraspherical.cpp(88): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "ceres::DynamicNumericDiffCostFunction<gazeestimation::ROptimizingCorneaDistance,ceres::CENTRAL>", die kompiliert wird.
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(149): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(149): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(101): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianForParameterBlock(const CostFunctor *,const double *,const ceres::NumericDiffOptions &,int,int,int,double **,double *)-Memberfunktion
+          with
+          [
+              CostFunctor=gazeestimation::ROptimizingCorneaDistance
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(129): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianForParameterBlock(const CostFunctor *,const double *,const ceres::NumericDiffOptions &,int,int,int,double **,double *)".
+          with
+          [
+              CostFunctor=gazeestimation::ROptimizingCorneaDistance
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(133): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>", die kompiliert wird.
+          with
+          [
+              CostFunctor=gazeestimation::ROptimizingCorneaDistance
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(95): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::DynamicNumericDiffCostFunction<gazeestimation::ROptimizingCorneaDistance,ceres::CENTRAL>::Evaluate(const double *const *,double *,double **) const-Memberfunktion
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(164): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(164): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(233): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(233): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(206): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianColumn(const CostFunctor *,int,double,int,int,const double *,const double *,double **,double *,double *,double *)-Memberfunktion
+          with
+          [
+              CostFunctor=gazeestimation::ROptimizingCorneaDistance
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(178): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianColumn(const CostFunctor *,int,double,int,int,const double *,const double *,double **,double *,double *,double *)".
+          with
+          [
+              CostFunctor=gazeestimation::ROptimizingCorneaDistance
+          ]
+  BHOKalmanFilter.cpp
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qrefcount.h(79): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(59): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(66): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1060): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1070): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1242): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qsharedpointer_impl.h(155): warning C4127: Bedingter Ausdruck ist konstant
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\bhokalmanfilter.cpp(33): warning C4100: "startPos": Unreferenzierter formaler Parameter
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1597): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1732): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId2<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(810): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qMetaTypeId<QPair<QVariant,QVariant>>(void)".
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1671): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qRegisterNormalizedMetaType<QPair<QVariant,QVariant>>(const QByteArray &,T *,QtPrivate::MetaTypeDefinedHelper<T,true>::DefinedType)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  moc_CalibrationDialog.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(463): warning C4251: "QVariant::d": struct "QVariant::Private" erfordert eine DLL-Schnittstelle, die von Clients von class "QVariant" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(370): note: Siehe Deklaration von "QVariant::Private"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(581): warning C4251: "QSequentialIterable::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QSequentialIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(586): warning C4251: "QSequentialIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QSequentialIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(634): warning C4251: "QAssociativeIterable::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QAssociativeIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(639): warning C4251: "QAssociativeIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QAssociativeIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): warning C4251: "QLocale::d": class "QSharedDataPointer<QLocalePrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QLocale" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): note: Siehe Deklaration von "QSharedDataPointer<QLocalePrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): warning C4251: "QTextStream::d_ptr": class "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QTextStream" verwendet wird
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): note: Siehe Deklaration von "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qcontiguouscache.h(54): warning C4251: "QContiguousCacheData::ref": class "QBasicAtomicInteger<int>" erfordert eine DLL-Schnittstelle, die von Clients von struct "QContiguousCacheData" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbasicatomic.h(226): note: Siehe Deklaration von "QBasicAtomicInteger<int>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): warning C4251: "QDebugStateSaver::d": class "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QDebugStateSaver" verwendet wird
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): note: Siehe Deklaration von "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  moc_GoalkeeperAnalysis.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(463): warning C4251: "QVariant::d": struct "QVariant::Private" erfordert eine DLL-Schnittstelle, die von Clients von class "QVariant" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(370): note: Siehe Deklaration von "QVariant::Private"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(581): warning C4251: "QSequentialIterable::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QSequentialIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(586): warning C4251: "QSequentialIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QSequentialIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(634): warning C4251: "QAssociativeIterable::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QAssociativeIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(639): warning C4251: "QAssociativeIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QAssociativeIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): warning C4251: "QLocale::d": class "QSharedDataPointer<QLocalePrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QLocale" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): note: Siehe Deklaration von "QSharedDataPointer<QLocalePrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): warning C4251: "QTextStream::d_ptr": class "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QTextStream" verwendet wird
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): note: Siehe Deklaration von "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qcontiguouscache.h(54): warning C4251: "QContiguousCacheData::ref": class "QBasicAtomicInteger<int>" erfordert eine DLL-Schnittstelle, die von Clients von struct "QContiguousCacheData" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbasicatomic.h(226): note: Siehe Deklaration von "QBasicAtomicInteger<int>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): warning C4251: "QDebugStateSaver::d": class "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QDebugStateSaver" verwendet wird
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): note: Siehe Deklaration von "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  moc_InputFeaturesDisplay.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  moc_LiveGazeDisplay.cpp
+  MAFilter.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qrefcount.h(79): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(59): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(66): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1060): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1070): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1242): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qsharedpointer_impl.h(155): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1597): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1732): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId2<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(810): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qMetaTypeId<QPair<QVariant,QVariant>>(void)".
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1671): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qRegisterNormalizedMetaType<QPair<QVariant,QVariant>>(const QByteArray &,T *,QtPrivate::MetaTypeDefinedHelper<T,true>::DefinedType)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  main.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(463): warning C4251: "QVariant::d": struct "QVariant::Private" erfordert eine DLL-Schnittstelle, die von Clients von class "QVariant" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(370): note: Siehe Deklaration von "QVariant::Private"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(581): warning C4251: "QSequentialIterable::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QSequentialIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(586): warning C4251: "QSequentialIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QSequentialIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(634): warning C4251: "QAssociativeIterable::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QAssociativeIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(639): warning C4251: "QAssociativeIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QAssociativeIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): warning C4251: "QLocale::d": class "QSharedDataPointer<QLocalePrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QLocale" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): note: Siehe Deklaration von "QSharedDataPointer<QLocalePrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): warning C4251: "QTextStream::d_ptr": class "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QTextStream" verwendet wird
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): note: Siehe Deklaration von "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qcontiguouscache.h(54): warning C4251: "QContiguousCacheData::ref": class "QBasicAtomicInteger<int>" erfordert eine DLL-Schnittstelle, die von Clients von struct "QContiguousCacheData" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbasicatomic.h(226): note: Siehe Deklaration von "QBasicAtomicInteger<int>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): warning C4251: "QDebugStateSaver::d": class "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QDebugStateSaver" verwendet wird
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): note: Siehe Deklaration von "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  CalibrationDialog.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(463): warning C4251: "QVariant::d": struct "QVariant::Private" erfordert eine DLL-Schnittstelle, die von Clients von class "QVariant" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(370): note: Siehe Deklaration von "QVariant::Private"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(581): warning C4251: "QSequentialIterable::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QSequentialIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(586): warning C4251: "QSequentialIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QSequentialIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(634): warning C4251: "QAssociativeIterable::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QAssociativeIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(639): warning C4251: "QAssociativeIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QAssociativeIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): warning C4251: "QLocale::d": class "QSharedDataPointer<QLocalePrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QLocale" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): note: Siehe Deklaration von "QSharedDataPointer<QLocalePrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): warning C4251: "QTextStream::d_ptr": class "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QTextStream" verwendet wird
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): note: Siehe Deklaration von "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qcontiguouscache.h(54): warning C4251: "QContiguousCacheData::ref": class "QBasicAtomicInteger<int>" erfordert eine DLL-Schnittstelle, die von Clients von struct "QContiguousCacheData" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbasicatomic.h(226): note: Siehe Deklaration von "QBasicAtomicInteger<int>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): warning C4251: "QDebugStateSaver::d": class "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QDebugStateSaver" verwendet wird
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): note: Siehe Deklaration von "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(154): warning C4251: "QRegularExpression::d": class "QExplicitlySharedDataPointer<QRegularExpressionPrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QRegularExpression" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(154): note: Siehe Deklaration von "QExplicitlySharedDataPointer<QRegularExpressionPrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(220): warning C4251: "QRegularExpressionMatch::d": class "QSharedDataPointer<QRegularExpressionMatchPrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QRegularExpressionMatch" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(220): note: Siehe Deklaration von "QSharedDataPointer<QRegularExpressionMatchPrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(258): warning C4251: "QRegularExpressionMatchIterator::d": class "QSharedDataPointer<QRegularExpressionMatchIteratorPrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QRegularExpressionMatchIterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(258): note: Siehe Deklaration von "QSharedDataPointer<QRegularExpressionMatchIteratorPrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(95): warning C4251: "QStyleOption::state": class "QFlags<QStyle::StateFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOption" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyle.h(133): note: Siehe Deklaration von "QFlags<QStyle::StateFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(140): warning C4251: "QStyleOptionFrame::features": class "QFlags<QStyleOptionFrame::FrameFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionFrame" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(139): note: Siehe Deklaration von "QFlags<QStyleOptionFrame::FrameFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(218): warning C4251: "QStyleOptionHeader::textAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionHeader" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(220): warning C4251: "QStyleOptionHeader::iconAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionHeader" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(243): warning C4251: "QStyleOptionButton::features": class "QFlags<QStyleOptionButton::ButtonFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionButton" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(241): note: Siehe Deklaration von "QFlags<QStyleOptionButton::ButtonFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(278): warning C4251: "QStyleOptionTab::cornerWidgets": class "QFlags<QStyleOptionTab::CornerWidget>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionTab" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(269): note: Siehe Deklaration von "QFlags<QStyleOptionTab::CornerWidget>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(283): warning C4251: "QStyleOptionTab::features": class "QFlags<QStyleOptionTab::TabFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionTab" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(270): note: Siehe Deklaration von "QFlags<QStyleOptionTab::TabFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(312): warning C4251: "QStyleOptionToolBar::features": class "QFlags<QStyleOptionToolBar::ToolBarFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionToolBar" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(308): note: Siehe Deklaration von "QFlags<QStyleOptionToolBar::ToolBarFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(336): warning C4251: "QStyleOptionProgressBar::textAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionProgressBar" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(410): warning C4251: "QStyleOptionViewItem::displayAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionViewItem" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(411): warning C4251: "QStyleOptionViewItem::decorationAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionViewItem" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(428): warning C4251: "QStyleOptionViewItem::features": class "QFlags<QStyleOptionViewItem::ViewItemFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionViewItem" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(426): note: Siehe Deklaration von "QFlags<QStyleOptionViewItem::ViewItemFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(506): warning C4251: "QStyleOptionComplex::subControls": class "QFlags<QStyle::SubControl>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionComplex" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyle.h(440): note: Siehe Deklaration von "QFlags<QStyle::SubControl>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(507): warning C4251: "QStyleOptionComplex::activeSubControls": class "QFlags<QStyle::SubControl>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionComplex" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyle.h(440): note: Siehe Deklaration von "QFlags<QStyle::SubControl>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(549): warning C4251: "QStyleOptionSpinBox::stepEnabled": class "QFlags<QAbstractSpinBox::StepEnabledFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionSpinBox" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qabstractspinbox.h(78): note: Siehe Deklaration von "QFlags<QAbstractSpinBox::StepEnabledFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(570): warning C4251: "QStyleOptionToolButton::features": class "QFlags<QStyleOptionToolButton::ToolButtonFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionToolButton" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(568): note: Siehe Deklaration von "QFlags<QStyleOptionToolButton::ToolButtonFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(617): warning C4251: "QStyleOptionTitleBar::titleBarFlags": class "QFlags<Qt::WindowType>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionTitleBar" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(307): note: Siehe Deklaration von "QFlags<Qt::WindowType>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(632): warning C4251: "QStyleOptionGroupBox::features": class "QFlags<QStyleOptionFrame::FrameFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionGroupBox" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(139): note: Siehe Deklaration von "QFlags<QStyleOptionFrame::FrameFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(634): warning C4251: "QStyleOptionGroupBox::textAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionGroupBox" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qlayoutitem.h(86): warning C4251: "QLayoutItem::align": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QLayoutItem" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(64): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(104): warning C4457: Deklaration von "point" blendet Funktionsparameter aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(97): note: Siehe Deklaration von "point"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(105): warning C4244: "Argument": Konvertierung von "const _Ty2" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty2=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(105): warning C4244: "Argument": Konvertierung von "const _Ty1" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty1=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(106): warning C4244: "Argument": Konvertierung von "const _Ty2" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty2=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(106): warning C4244: "Argument": Konvertierung von "const _Ty1" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty1=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(97): warning C4100: "point": Unreferenzierter formaler Parameter
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(137): warning C4244: "Argument": Konvertierung von "const _Ty2" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty2=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(137): warning C4244: "Argument": Konvertierung von "const _Ty1" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty1=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(138): warning C4244: "Argument": Konvertierung von "const _Ty2" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty2=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(138): warning C4244: "Argument": Konvertierung von "const _Ty1" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty1=double
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(139): warning C4244: "Argument": Konvertierung von "_Ty2" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty2=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(139): warning C4244: "Argument": Konvertierung von "_Ty1" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Ty1=double
+          ]
+          and
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(157): warning C4101: "e": Unreferenzierte lokale Variable
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\utility(208): warning C4244: "Initialisierung": Konvertierung von "const _Ty1" in "_Ty1", möglicher Datenverlust
+          with
+          [
+              _Ty1=double
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(113): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "std::pair<float,float>::pair<double,double,0>(const std::pair<double,double> &) noexcept".
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationdialog.cpp(113): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "std::pair<float,float>::pair<double,double,0>(const std::pair<double,double> &) noexcept".
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(54): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<9>", die kompiliert wird.
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(53): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<8>", die kompiliert wird.
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(52): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<7>", die kompiliert wird.
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(51): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<6>", die kompiliert wird.
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(50): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<5>", die kompiliert wird.
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(49): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<4>", die kompiliert wird.
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(48): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<3>", die kompiliert wird.
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(47): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<2>", die kompiliert wird.
+  c:\remoteeye_ng\dependencies\boost_1_66_0\boost\bind\placeholders.hpp(46): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "boost::arg<1>", die kompiliert wird.
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\utility(208): warning C4244: "Initialisierung": Konvertierung von "const _Ty2" in "_Ty2", möglicher Datenverlust
+          with
+          [
+              _Ty2=double
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\cameracalibration.h(30): warning C4505: "help": Nichtreferenzierte lokale Funktion wurde entfernt
+  Calibration.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(82): warning C4244: "=": Konvertierung von "const _Tp" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(84): warning C4244: "=": Konvertierung von "const _Tp" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(87): warning C4244: "Argument": Konvertierung von "double" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(122): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(123): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(124): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(133): warning C4244: "Argument": Konvertierung von "unsigned int" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(145): warning C4244: "=": Konvertierung von "int" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(147): warning C4244: "=": Konvertierung von "int" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(157): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(159): warning C4244: "Argument": Konvertierung von "unsigned int" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(159): warning C4244: "Argument": Konvertierung von "size_t" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(160): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(192): warning C4459: Deklaration von "true_screen_distance_mm" blendet globale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\constants.h(19): note: Siehe Deklaration von "true_screen_distance_mm"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(213): warning C4459: Deklaration von "true_screen_distance_mm" blendet globale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\constants.h(19): note: Siehe Deklaration von "true_screen_distance_mm"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(222): warning C4244: "Argument": Konvertierung von "const double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(359): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(363): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(367): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(370): warning C4267: "=": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(384): warning C4244: "Argument": Konvertierung von "double" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(405): warning C4456: Deklaration von "features" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(389): note: Siehe Deklaration von "features"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(459): warning C4456: Deklaration von "features" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(389): note: Siehe Deklaration von "features"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(472): warning C4456: Deklaration von "features" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(389): note: Siehe Deklaration von "features"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(483): warning C4456: Deklaration von "features" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(389): note: Siehe Deklaration von "features"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(548): warning C4244: "Argument": Konvertierung von "const double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(564): warning C4244: "Argument": Konvertierung von "const double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(352): warning C4101: "totalFrames": Unreferenzierte lokale Variable
+d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(103): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(95): note: Bei der Kompilierung von Klasse Vorlage der std::vector<std::vector<_Tp,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> gazeestimation::GenericCalibration<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>::calibrate(gazeestimation::GazeEstimationMethod<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult> &,Parameters &,std::function<Parameters (Parameters,const double *const *)>,std::function<gazeestimation::Vec3 (const GazeEstimationResult &)>,std::vector<std::pair<InputData,gazeestimation::Vec3>,std::allocator<std::pair<InputData,gazeestimation::Vec3>>> &,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>,std::vector<std::vector<std::pair<double,double>,std::allocator<std::pair<double,double>>>,std::allocator<std::vector<std::pair<double,double>,std::allocator<std::pair<double,double>>>>>)-Memberfunktion
+          with
+          [
+              _Tp=double,
+              _Ty=double,
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult,
+              InputData=gazeestimation::PupilCenterGlintInputs
+          ]
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(817): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "std::vector<std::vector<_Tp,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> gazeestimation::GenericCalibration<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>::calibrate(gazeestimation::GazeEstimationMethod<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult> &,Parameters &,std::function<Parameters (Parameters,const double *const *)>,std::function<gazeestimation::Vec3 (const GazeEstimationResult &)>,std::vector<std::pair<InputData,gazeestimation::Vec3>,std::allocator<std::pair<InputData,gazeestimation::Vec3>>> &,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>,std::vector<std::vector<std::pair<double,double>,std::allocator<std::pair<double,double>>>,std::allocator<std::vector<std::pair<double,double>,std::allocator<std::pair<double,double>>>>>)".
+          with
+          [
+              _Tp=double,
+              _Ty=double,
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult,
+              InputData=gazeestimation::PupilCenterGlintInputs
+          ]
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(770): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "gazeestimation::GenericCalibration<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>", die kompiliert wird.
+d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(105): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(133): warning C4244: "=": Konvertierung von "double" in "int", möglicher Datenverlust
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(141): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(95): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::DynamicNumericDiffCostFunction<gazeestimation::CalibrationErrorFunctor<Parameters,InputData,GazeEstimationResult>,ceres::CENTRAL>::Evaluate(const double *const *,double *,double **) const-Memberfunktion
+          with
+          [
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              InputData=gazeestimation::PupilCenterGlintInputs,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult
+          ]
+  d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(100): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "ceres::DynamicNumericDiffCostFunction<gazeestimation::CalibrationErrorFunctor<Parameters,InputData,GazeEstimationResult>,ceres::CENTRAL>", die kompiliert wird.
+          with
+          [
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              InputData=gazeestimation::PupilCenterGlintInputs,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult
+          ]
+  d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(95): note: Bei der Kompilierung von Klasse Vorlage der std::vector<std::vector<_Tp,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> gazeestimation::GenericCalibration<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>::calibrate(gazeestimation::GazeEstimationMethod<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult> &,Parameters &,std::function<Parameters (Parameters,const double *const *)>,std::function<gazeestimation::Vec3 (const GazeEstimationResult &)>,std::vector<std::pair<InputData,gazeestimation::Vec3>,std::allocator<std::pair<InputData,gazeestimation::Vec3>>> &,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>,std::vector<std::vector<std::pair<double,double>,std::allocator<std::pair<double,double>>>,std::allocator<std::vector<std::pair<double,double>,std::allocator<std::pair<double,double>>>>>)-Memberfunktion
+          with
+          [
+              _Tp=double,
+              _Ty=double,
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult,
+              InputData=gazeestimation::PupilCenterGlintInputs
+          ]
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibration.cpp(817): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "std::vector<std::vector<_Tp,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>> gazeestimation::GenericCalibration<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>::calibrate(gazeestimation::GazeEstimationMethod<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult> &,Parameters &,std::function<Parameters (Parameters,const double *const *)>,std::function<gazeestimation::Vec3 (const GazeEstimationResult &)>,std::vector<std::pair<InputData,gazeestimation::Vec3>,std::allocator<std::pair<InputData,gazeestimation::Vec3>>> &,std::vector<std::vector<_Ty,std::allocator<_Ty>>,std::allocator<std::vector<_Ty,std::allocator<_Ty>>>>,std::vector<std::vector<std::pair<double,double>,std::allocator<std::pair<double,double>>>,std::allocator<std::vector<std::pair<double,double>,std::allocator<std::pair<double,double>>>>>)".
+          with
+          [
+              _Tp=double,
+              _Ty=double,
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult,
+              InputData=gazeestimation::PupilCenterGlintInputs
+          ]
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(149): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(149): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(101): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianForParameterBlock(const CostFunctor *,const double *,const ceres::NumericDiffOptions &,int,int,int,double **,double *)-Memberfunktion
+          with
+          [
+              CostFunctor=gazeestimation::CalibrationErrorFunctor<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(129): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianForParameterBlock(const CostFunctor *,const double *,const ceres::NumericDiffOptions &,int,int,int,double **,double *)".
+          with
+          [
+              CostFunctor=gazeestimation::CalibrationErrorFunctor<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(133): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>", die kompiliert wird.
+          with
+          [
+              CostFunctor=gazeestimation::CalibrationErrorFunctor<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(95): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::DynamicNumericDiffCostFunction<gazeestimation::CalibrationErrorFunctor<Parameters,InputData,GazeEstimationResult>,ceres::CENTRAL>::Evaluate(const double *const *,double *,double **) const-Memberfunktion
+          with
+          [
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              InputData=gazeestimation::PupilCenterGlintInputs,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult
+          ]
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(164): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(164): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(233): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(233): note: Verwenden Sie stattdessen ggf. die Anweisung "if constexpr".
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(206): note: Bei der Kompilierung von Klasse Vorlage der bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianColumn(const CostFunctor *,int,double,int,int,const double *,const double *,double **,double *,double *,double *)-Memberfunktion
+          with
+          [
+              CostFunctor=gazeestimation::CalibrationErrorFunctor<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\internal\numeric_diff.h(178): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "bool ceres::internal::NumericDiff<CostFunctor,ceres::CENTRAL,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1>::EvaluateJacobianColumn(const CostFunctor *,int,double,int,int,const double *,const double *,double **,double *,double *,double *)".
+          with
+          [
+              CostFunctor=gazeestimation::CalibrationErrorFunctor<gazeestimation::EyeAndCameraParameters,gazeestimation::PupilCenterGlintInputs,gazeestimation::DefaultGazeEstimationResult>
+          ]
+d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(62): warning C4189: "error": Lokale Variable ist initialisiert aber nicht referenziert
+  d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(58): note: Bei der Kompilierung von Klasse Vorlage der bool gazeestimation::CalibrationErrorFunctor<Parameters,InputData,GazeEstimationResult>::operator ()(const double *const *,double *) const-Memberfunktion
+          with
+          [
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              InputData=gazeestimation::PupilCenterGlintInputs,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult
+          ]
+  c:\remoteeye_ng\dependencies\ceres\ceres-windows\ceres-solver\include\ceres\dynamic_numeric_diff_cost_function.h(163): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "bool gazeestimation::CalibrationErrorFunctor<Parameters,InputData,GazeEstimationResult>::operator ()(const double *const *,double *) const".
+          with
+          [
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              InputData=gazeestimation::PupilCenterGlintInputs,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult
+          ]
+  d:\remoteeye2019\gazeestimationcpp\genericcalibration.hpp(100): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "gazeestimation::CalibrationErrorFunctor<Parameters,InputData,GazeEstimationResult>", die kompiliert wird.
+          with
+          [
+              Parameters=gazeestimation::EyeAndCameraParameters,
+              InputData=gazeestimation::PupilCenterGlintInputs,
+              GazeEstimationResult=gazeestimation::DefaultGazeEstimationResult
+          ]
+  CalibrationPatternGenerators.cpp
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationpatterngenerators.cpp(62): warning C4267: "Initialisierung": Konvertierung von "size_t" nach "int", Datenverlust möglich
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3520): warning C4389: "==": Konflikt zwischen "signed" und "unsigned"
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3533): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,const _InIt,const _Ty &,std::false_type)".
+          with
+          [
+              _InIt=unsigned int *,
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xutility(3542): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "_InIt std::_Find_unchecked<unsigned int*,_Ty>(const _InIt,const _InIt,const _Ty &)".
+          with
+          [
+              _InIt=unsigned int *,
+              _Ty=int
+          ]
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationpatterngenerators.cpp(63): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "_InIt std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int>(_InIt,const _InIt,const int &)".
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<unsigned int>>>,
+              _Ty=unsigned int
+          ]
+  CalibrationPointAggregates.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qrefcount.h(79): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(59): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(66): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbytearray.h(467): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbytearray.h(469): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbytearray.h(471): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbytearray.h(549): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(885): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(887): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(889): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(907): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(1112): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(1497): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1060): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1070): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1242): warning C4127: Bedingter Ausdruck ist konstant
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationpointaggregates.cpp(32): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationpointaggregates.cpp(215): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1597): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1732): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId2<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(810): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qMetaTypeId<QPair<QVariant,QVariant>>(void)".
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1671): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qRegisterNormalizedMetaType<QPair<QVariant,QVariant>>(const QByteArray &,T *,QtPrivate::MetaTypeDefinedHelper<T,true>::DefinedType)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  CalibrationTrainer.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\calibrationtrainer.cpp(17): warning C4100: "data": Unreferenzierter formaler Parameter
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\cameracalibration.h(30): warning C4505: "help": Nichtreferenzierte lokale Funktion wurde entfernt
+  DetectorCode.cpp
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(39): warning C4239: Nicht dem Standard entsprechende Erweiterung: "return": Konvertierung von "QDebug" in "QDebug &"
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(39): note: Ein nicht konstanter Verweis kann nur an einen L-Wert gebunden werden.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(69): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(70): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(88): warning C4456: Deklaration von "x" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(69): note: Siehe Deklaration von "x"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(88): warning C4244: "Initialisierung": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(89): warning C4456: Deklaration von "y" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(70): note: Siehe Deklaration von "y"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(89): warning C4244: "Initialisierung": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(98): warning C4456: Deklaration von "x" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(88): note: Siehe Deklaration von "x"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(98): warning C4244: "Initialisierung": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(99): warning C4456: Deklaration von "y" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(89): note: Siehe Deklaration von "y"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(99): warning C4244: "Initialisierung": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(133): warning C4456: Deklaration von "x" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(69): note: Siehe Deklaration von "x"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(133): warning C4244: "Initialisierung": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(134): warning C4456: Deklaration von "y" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(70): note: Siehe Deklaration von "y"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(134): warning C4244: "Initialisierung": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(147): warning C4456: Deklaration von "x" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(133): note: Siehe Deklaration von "x"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(147): warning C4244: "Initialisierung": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(148): warning C4456: Deklaration von "y" blendet vorherige lokale Deklaration aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(134): note: Siehe Deklaration von "y"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(148): warning C4244: "Initialisierung": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(58): warning C4189: "minPixely": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(55): warning C4189: "minPixelx": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(56): warning C4189: "maxPixelx": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(59): warning C4189: "maxPixely": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(226): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(227): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(228): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(229): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(230): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(231): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(232): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(233): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(234): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(235): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(236): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(237): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(238): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(239): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(240): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(241): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(242): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(243): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(244): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(245): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(246): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(247): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(248): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(249): warning C4244: "Argument": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(251): warning C4244: "Initialisierung": Konvertierung von "double" in "long", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(462): warning C4244: "=": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(463): warning C4244: "=": Konvertierung von "_Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(466): warning C4244: "Argument": Konvertierung von "unsigned __int64" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(473): warning C4244: "Argument": Konvertierung von "_Tp" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+          and
+          [
+              _Tp=int
+          ]
+  GazeEstimationAdapter.cpp
+  GoalkeeperAnalysis.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(463): warning C4251: "QVariant::d": struct "QVariant::Private" erfordert eine DLL-Schnittstelle, die von Clients von class "QVariant" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(370): note: Siehe Deklaration von "QVariant::Private"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(581): warning C4251: "QSequentialIterable::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QSequentialIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(586): warning C4251: "QSequentialIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QSequentialIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(634): warning C4251: "QAssociativeIterable::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QAssociativeIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(639): warning C4251: "QAssociativeIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QAssociativeIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): warning C4251: "QLocale::d": class "QSharedDataPointer<QLocalePrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QLocale" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): note: Siehe Deklaration von "QSharedDataPointer<QLocalePrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): warning C4251: "QTextStream::d_ptr": class "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QTextStream" verwendet wird
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): note: Siehe Deklaration von "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qcontiguouscache.h(54): warning C4251: "QContiguousCacheData::ref": class "QBasicAtomicInteger<int>" erfordert eine DLL-Schnittstelle, die von Clients von struct "QContiguousCacheData" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbasicatomic.h(226): note: Siehe Deklaration von "QBasicAtomicInteger<int>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): warning C4251: "QDebugStateSaver::d": class "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QDebugStateSaver" verwendet wird
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): note: Siehe Deklaration von "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(154): warning C4251: "QRegularExpression::d": class "QExplicitlySharedDataPointer<QRegularExpressionPrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QRegularExpression" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(154): note: Siehe Deklaration von "QExplicitlySharedDataPointer<QRegularExpressionPrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(220): warning C4251: "QRegularExpressionMatch::d": class "QSharedDataPointer<QRegularExpressionMatchPrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QRegularExpressionMatch" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(220): note: Siehe Deklaration von "QSharedDataPointer<QRegularExpressionMatchPrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(258): warning C4251: "QRegularExpressionMatchIterator::d": class "QSharedDataPointer<QRegularExpressionMatchIteratorPrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QRegularExpressionMatchIterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qregularexpression.h(258): note: Siehe Deklaration von "QSharedDataPointer<QRegularExpressionMatchIteratorPrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(95): warning C4251: "QStyleOption::state": class "QFlags<QStyle::StateFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOption" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyle.h(133): note: Siehe Deklaration von "QFlags<QStyle::StateFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(140): warning C4251: "QStyleOptionFrame::features": class "QFlags<QStyleOptionFrame::FrameFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionFrame" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(139): note: Siehe Deklaration von "QFlags<QStyleOptionFrame::FrameFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(218): warning C4251: "QStyleOptionHeader::textAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionHeader" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(220): warning C4251: "QStyleOptionHeader::iconAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionHeader" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(243): warning C4251: "QStyleOptionButton::features": class "QFlags<QStyleOptionButton::ButtonFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionButton" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(241): note: Siehe Deklaration von "QFlags<QStyleOptionButton::ButtonFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(278): warning C4251: "QStyleOptionTab::cornerWidgets": class "QFlags<QStyleOptionTab::CornerWidget>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionTab" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(269): note: Siehe Deklaration von "QFlags<QStyleOptionTab::CornerWidget>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(283): warning C4251: "QStyleOptionTab::features": class "QFlags<QStyleOptionTab::TabFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionTab" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(270): note: Siehe Deklaration von "QFlags<QStyleOptionTab::TabFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(312): warning C4251: "QStyleOptionToolBar::features": class "QFlags<QStyleOptionToolBar::ToolBarFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionToolBar" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(308): note: Siehe Deklaration von "QFlags<QStyleOptionToolBar::ToolBarFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(336): warning C4251: "QStyleOptionProgressBar::textAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionProgressBar" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(410): warning C4251: "QStyleOptionViewItem::displayAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionViewItem" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(411): warning C4251: "QStyleOptionViewItem::decorationAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionViewItem" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(428): warning C4251: "QStyleOptionViewItem::features": class "QFlags<QStyleOptionViewItem::ViewItemFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionViewItem" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(426): note: Siehe Deklaration von "QFlags<QStyleOptionViewItem::ViewItemFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(506): warning C4251: "QStyleOptionComplex::subControls": class "QFlags<QStyle::SubControl>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionComplex" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyle.h(440): note: Siehe Deklaration von "QFlags<QStyle::SubControl>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(507): warning C4251: "QStyleOptionComplex::activeSubControls": class "QFlags<QStyle::SubControl>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionComplex" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyle.h(440): note: Siehe Deklaration von "QFlags<QStyle::SubControl>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(549): warning C4251: "QStyleOptionSpinBox::stepEnabled": class "QFlags<QAbstractSpinBox::StepEnabledFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionSpinBox" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qabstractspinbox.h(78): note: Siehe Deklaration von "QFlags<QAbstractSpinBox::StepEnabledFlag>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(570): warning C4251: "QStyleOptionToolButton::features": class "QFlags<QStyleOptionToolButton::ToolButtonFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionToolButton" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(568): note: Siehe Deklaration von "QFlags<QStyleOptionToolButton::ToolButtonFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(617): warning C4251: "QStyleOptionTitleBar::titleBarFlags": class "QFlags<Qt::WindowType>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionTitleBar" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(307): note: Siehe Deklaration von "QFlags<Qt::WindowType>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(632): warning C4251: "QStyleOptionGroupBox::features": class "QFlags<QStyleOptionFrame::FrameFeature>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionGroupBox" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(139): note: Siehe Deklaration von "QFlags<QStyleOptionFrame::FrameFeature>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qstyleoption.h(634): warning C4251: "QStyleOptionGroupBox::textAlignment": class "QFlags<Qt::AlignmentFlag>" erfordert eine DLL-Schnittstelle, die von Clients von class "QStyleOptionGroupBox" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qnamespace.h(227): note: Siehe Deklaration von "QFlags<Qt::AlignmentFlag>"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(77): warning C4458: Deklaration von "camera" blendet Klassenmember aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.h(137): note: Siehe Deklaration von "GoalkeeperAnalysis::camera"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(192): warning C4305: "Argument": Verkürzung von "const double" in "float"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(199): warning C4305: "Argument": Verkürzung von "const double" in "float"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(206): warning C4305: "Argument": Verkürzung von "double" in "float"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(289): warning C4244: "Argument": Konvertierung von "double" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(317): warning C4244: "Argument": Konvertierung von "double" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(419): warning C4305: "Argument": Verkürzung von "const double" in "float"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(584): warning C4244: "Argument": Konvertierung von "const _Tp" in "int", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(692): warning C4458: Deklaration von "pupil_detection" blendet Klassenmember aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.h(139): note: Siehe Deklaration von "GoalkeeperAnalysis::pupil_detection"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(693): warning C4458: Deklaration von "first_eye_threshold" blendet Klassenmember aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.h(150): note: Siehe Deklaration von "GoalkeeperAnalysis::first_eye_threshold"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(695): warning C4458: Deklaration von "pgci" blendet Klassenmember aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.h(199): note: Siehe Deklaration von "GoalkeeperAnalysis::pgci"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(776): warning C4244: "Initialisierung": Konvertierung von "FrameTimestamp" in "double", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(817): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(956): warning C4458: Deklaration von "data" blendet Klassenmember aus
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qwidget.h(733): note: Siehe Deklaration von "QWidget::data"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(1036): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(1114): warning C4189: "res": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(1183): warning C4458: Deklaration von "data" blendet Klassenmember aus
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtwidgets\qwidget.h(733): note: Siehe Deklaration von "QWidget::data"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\goalkeeperanalysis.cpp(1365): warning C4244: "Argument": Konvertierung von "double" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=int
+          ]
+  Code wird generiert...
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\detectorcode.cpp(39): warning C4172: Adresse einer lokalen Variablen oder eines temporären Werts "" wird zurückgegeben
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\mafilter.cpp(97): warning C4700: Die nicht initialisierte lokale Variable "meanX" wurde verwendet.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\mafilter.cpp(98): warning C4700: Die nicht initialisierte lokale Variable "meanY" wurde verwendet.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\mafilter.cpp(121): warning C4700: Die nicht initialisierte lokale Variable "summedStddevX" wurde verwendet.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\mafilter.cpp(122): warning C4700: Die nicht initialisierte lokale Variable "summedStddevY" wurde verwendet.
+  Kompilieren...
+  InputFeaturesDisplay.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\inputfeaturesdisplay.cpp(47): warning C4100: "event": Unreferenzierter formaler Parameter
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\inputfeaturesdisplay.cpp(138): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  IntermediateTypes.cpp
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\intermediatetypes.cpp(82): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+  LiveGazeDisplay.cpp
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\livegazedisplay.cpp(42): warning C4100: "event": Unreferenzierter formaler Parameter
+  OutputMethods.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qrefcount.h(79): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(59): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(66): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1060): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1070): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1242): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qsharedpointer_impl.h(155): warning C4127: Bedingter Ausdruck ist konstant
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\outputmethods.cpp(370): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\outputmethods.cpp(375): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\outputmethods.cpp(376): warning C4267: "Argument": Konvertierung von "size_t" nach "int", Datenverlust möglich
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1597): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1732): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId2<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(810): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qMetaTypeId<QPair<QVariant,QVariant>>(void)".
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1671): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qRegisterNormalizedMetaType<QPair<QVariant,QVariant>>(const QByteArray &,T *,QtPrivate::MetaTypeDefinedHelper<T,true>::DefinedType)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  ProfilingMonitor.cpp
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qrefcount.h(79): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(59): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qarraydata.h(66): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbytearray.h(467): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbytearray.h(469): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbytearray.h(471): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbytearray.h(549): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(885): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(887): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(889): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(907): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(1112): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qstring.h(1497): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1060): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1070): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1242): warning C4127: Bedingter Ausdruck ist konstant
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1597): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1732): note: Siehe Verweis auf die Klasse Vorlage-Instanziierung "QMetaTypeId2<T>", die kompiliert wird.
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(810): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qMetaTypeId<QPair<QVariant,QVariant>>(void)".
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1671): warning C4127: Bedingter Ausdruck ist konstant
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int qRegisterNormalizedMetaType<QPair<QVariant,QVariant>>(const QByteArray &,T *,QtPrivate::MetaTypeDefinedHelper<T,true>::DefinedType)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(2078): note: Bei der Kompilierung von Klasse Vorlage der int QMetaTypeId<T>::qt_metatype_id(void)-Memberfunktion
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1598): note: Siehe Verweis auf die Instanziierung der gerade kompilierten Funktions-Vorlage "int QMetaTypeId<T>::qt_metatype_id(void)".
+          with
+          [
+              T=QPair<QVariant,QVariant>
+          ]
+  PupilDetection.cpp
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(161): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(182): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(203): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(246): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(268): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(291): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(314): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(403): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(404): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(419): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(420): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(422): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(423): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(385): warning C4189: "val_conn": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(384): warning C4189: "val_r": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(386): warning C4189: "val_rc": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(415): warning C4189: "neg_o": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(409): warning C4189: "pos": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(412): warning C4189: "mea_cnt": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(410): warning C4189: "neg": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(414): warning C4189: "pos_o": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(555): warning C4244: "=": Konvertierung von "int" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(556): warning C4244: "=": Konvertierung von "int" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(653): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(674): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(695): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(738): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(760): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(783): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(806): warning C4244: "=": Konvertierung von "double" in "float", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(897): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(898): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(913): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(914): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(916): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(917): warning C4244: "Initialisierung": Konvertierung von "float" in "int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(879): warning C4189: "val_conn": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(878): warning C4189: "val_r": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(880): warning C4189: "val_rc": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(909): warning C4189: "neg_o": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(903): warning C4189: "pos": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(906): warning C4189: "mea_cnt": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(904): warning C4189: "neg": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(908): warning C4189: "pos_o": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(1050): warning C4244: "=": Konvertierung von "int" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\algo.h(1051): warning C4244: "=": Konvertierung von "int" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=float
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\pupildetection.cpp(13): warning C4100: "position": Unreferenzierter formaler Parameter
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\pupildetection.cpp(13): warning C4100: "frame": Unreferenzierter formaler Parameter
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\pupildetection.cpp(148): warning C4305: "Argument": Verkürzung von "double" in "float"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\pupildetection.cpp(150): warning C4305: "Argument": Verkürzung von "double" in "float"
+  UEyePollingThread.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  VideoCaptureSession.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  VideoFilePollingThread.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(42): warning C4244: "Argument": Konvertierung von "double" in "_Tp", möglicher Datenverlust
+          with
+          [
+              _Tp=int
+          ]
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(69): warning C4244: "Initialisierung": Konvertierung von "double" in "unsigned int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(69): warning C4244: "Initialisierung": Konvertierung von "double" in "const unsigned int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(81): warning C4244: "Argument": Konvertierung von "double" in "unsigned int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(105): warning C4244: "Argument": Konvertierung von "double" in "int64_t", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(149): warning C4244: "Initialisierung": Konvertierung von "double" in "unsigned int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(149): warning C4244: "Initialisierung": Konvertierung von "double" in "const unsigned int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(161): warning C4244: "Argument": Konvertierung von "double" in "unsigned int", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\src\videofilepollingthread.cpp(183): warning C4244: "Argument": Konvertierung von "double" in "int64_t", möglicher Datenverlust
+  VideoWriterThread.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(463): warning C4251: "QVariant::d": struct "QVariant::Private" erfordert eine DLL-Schnittstelle, die von Clients von class "QVariant" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(370): note: Siehe Deklaration von "QVariant::Private"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(581): warning C4251: "QSequentialIterable::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QSequentialIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(586): warning C4251: "QSequentialIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QSequentialIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QSequentialIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(968): note: Siehe Deklaration von "QtMetaTypePrivate::QSequentialIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(634): warning C4251: "QAssociativeIterable::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von class "QAssociativeIterable" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qvariant.h(639): warning C4251: "QAssociativeIterable::const_iterator::m_impl": class "QtMetaTypePrivate::QAssociativeIterableImpl" erfordert eine DLL-Schnittstelle, die von Clients von struct "QAssociativeIterable::const_iterator" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qmetatype.h(1129): note: Siehe Deklaration von "QtMetaTypePrivate::QAssociativeIterableImpl"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): warning C4251: "QLocale::d": class "QSharedDataPointer<QLocalePrivate>" erfordert eine DLL-Schnittstelle, die von Clients von class "QLocale" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qlocale.h(1061): note: Siehe Deklaration von "QSharedDataPointer<QLocalePrivate>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): warning C4251: "QTextStream::d_ptr": class "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QTextStream" verwendet wird
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qtextstream.h(198): note: Siehe Deklaration von "QScopedPointer<QTextStreamPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QTextStreamPrivate
+          ]
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qcontiguouscache.h(54): warning C4251: "QContiguousCacheData::ref": class "QBasicAtomicInteger<int>" erfordert eine DLL-Schnittstelle, die von Clients von struct "QContiguousCacheData" verwendet wird
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qbasicatomic.h(226): note: Siehe Deklaration von "QBasicAtomicInteger<int>"
+c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): warning C4251: "QDebugStateSaver::d": class "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>" erfordert eine DLL-Schnittstelle, die von Clients von class "QDebugStateSaver" verwendet wird
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  c:\remoteeye_ng\dependencies\qt\5.9.2\msvc2017_64\include\qtcore\qdebug.h(181): note: Siehe Deklaration von "QScopedPointer<QDebugStateSaverPrivate,QScopedPointerDeleter<T>>"
+          with
+          [
+              T=QDebugStateSaverPrivate
+          ]
+  uEyeCamera.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(200): warning C4189: "nRet2": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(231): warning C4189: "nRet": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(242): warning C4458: Deklaration von "curSensorID" blendet Klassenmember aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.h(40): note: Siehe Deklaration von "uEyeCamera::curSensorID"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(274): warning C4244: "=": Konvertierung von "BOOL" in "BOOLEAN", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1018): warning C4244: "Initialisierung": Konvertierung von "double" in "UINT", möglicher Datenverlust
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1018): warning C4189: "nCaps": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1013): warning C4189: "ret": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1095): warning C4189: "nInc": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1093): warning C4189: "nMin": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1094): warning C4189: "nMax": Lokale Variable ist initialisiert aber nicht referenziert
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1518): warning C4060: switch-Anweisung enthält weder "case"- noch "default"-Bezeichnungen
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1521): warning C4458: Deklaration von "curColorMode" blendet Klassenmember aus
+  d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.h(28): note: Siehe Deklaration von "uEyeCamera::curColorMode"
+d:\remoteeye2019\remoteeye\goalkeeperanalysis\ueyecamera.cpp(1619): warning C4100: "error": Unreferenzierter formaler Parameter
+  utils.cpp
+  Info: Boost.Config is older than your compiler version - probably nothing bad will happen - but you may wish to look for an update Boost version.  Define BOOST_CONFIG_SUPPRESS_OUTDATED_MESSAGE to suppress this message.
+  Code wird generiert...
+  qrc_GoalkeeperAnalysis.cpp
+  borelib.lib(algo.obj) : Es wurde ein mit /GL kompiliertes MSIL .netmodule oder module gefunden. Verknüpfung wird mit /LTCG erneut gestartet. Fügen Sie /LTCG zur Linkbefehlszeile hinzu, um die Linkerleistung zu erhöhen.
+  Code wird generiert.
+  Codegenerierung ist abgeschlossen.
+OneCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??0CheckOpMessageBuilder@base@google@@QEAA@PEBD@Z (public: __cdecl google::base::CheckOpMessageBuilder::CheckOpMessageBuilder(char const *))" wurde importiert.
+TwoCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??0CheckOpMessageBuilder@base@google@@QEAA@PEBD@Z (public: __cdecl google::base::CheckOpMessageBuilder::CheckOpMessageBuilder(char const *))" wurde importiert.
+Calibration.obj : warning LNK4049: Lokal definiertes Symbol "??0CheckOpMessageBuilder@base@google@@QEAA@PEBD@Z (public: __cdecl google::base::CheckOpMessageBuilder::CheckOpMessageBuilder(char const *))" wurde importiert.
+OneCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??1CheckOpMessageBuilder@base@google@@QEAA@XZ (public: __cdecl google::base::CheckOpMessageBuilder::~CheckOpMessageBuilder(void))" wurde importiert.
+TwoCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??1CheckOpMessageBuilder@base@google@@QEAA@XZ (public: __cdecl google::base::CheckOpMessageBuilder::~CheckOpMessageBuilder(void))" wurde importiert.
+Calibration.obj : warning LNK4049: Lokal definiertes Symbol "??1CheckOpMessageBuilder@base@google@@QEAA@XZ (public: __cdecl google::base::CheckOpMessageBuilder::~CheckOpMessageBuilder(void))" wurde importiert.
+OneCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "?ForVar2@CheckOpMessageBuilder@base@google@@QEAAPEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ (public: class std::basic_ostream<char,struct std::char_traits<char> > * __cdecl google::base::CheckOpMessageBuilder::ForVar2(void))" wurde importiert.
+TwoCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "?ForVar2@CheckOpMessageBuilder@base@google@@QEAAPEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ (public: class std::basic_ostream<char,struct std::char_traits<char> > * __cdecl google::base::CheckOpMessageBuilder::ForVar2(void))" wurde importiert.
+Calibration.obj : warning LNK4049: Lokal definiertes Symbol "?ForVar2@CheckOpMessageBuilder@base@google@@QEAAPEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ (public: class std::basic_ostream<char,struct std::char_traits<char> > * __cdecl google::base::CheckOpMessageBuilder::ForVar2(void))" wurde importiert.
+OneCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "?NewString@CheckOpMessageBuilder@base@google@@QEAAPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ (public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * __cdecl google::base::CheckOpMessageBuilder::NewString(void))" wurde importiert.
+TwoCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "?NewString@CheckOpMessageBuilder@base@google@@QEAAPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ (public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * __cdecl google::base::CheckOpMessageBuilder::NewString(void))" wurde importiert.
+Calibration.obj : warning LNK4049: Lokal definiertes Symbol "?NewString@CheckOpMessageBuilder@base@google@@QEAAPEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ (public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > * __cdecl google::base::CheckOpMessageBuilder::NewString(void))" wurde importiert.
+OneCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "?stream@LogMessage@google@@QEAAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ (public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl google::LogMessage::stream(void))" wurde importiert.
+TwoCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "?stream@LogMessage@google@@QEAAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ (public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl google::LogMessage::stream(void))" wurde importiert.
+Calibration.obj : warning LNK4049: Lokal definiertes Symbol "?stream@LogMessage@google@@QEAAAEAV?$basic_ostream@DU?$char_traits@D@std@@@std@@XZ (public: class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl google::LogMessage::stream(void))" wurde importiert.
+OneCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??0LogMessageFatal@google@@QEAA@PEBDH@Z (public: __cdecl google::LogMessageFatal::LogMessageFatal(char const *,int))" wurde importiert.
+TwoCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??0LogMessageFatal@google@@QEAA@PEBDH@Z (public: __cdecl google::LogMessageFatal::LogMessageFatal(char const *,int))" wurde importiert.
+Calibration.obj : warning LNK4049: Lokal definiertes Symbol "??0LogMessageFatal@google@@QEAA@PEBDH@Z (public: __cdecl google::LogMessageFatal::LogMessageFatal(char const *,int))" wurde importiert.
+OneCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??0LogMessageFatal@google@@QEAA@PEBDHAEBUCheckOpString@1@@Z (public: __cdecl google::LogMessageFatal::LogMessageFatal(char const *,int,struct google::CheckOpString const &))" wurde importiert.
+TwoCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??0LogMessageFatal@google@@QEAA@PEBDHAEBUCheckOpString@1@@Z (public: __cdecl google::LogMessageFatal::LogMessageFatal(char const *,int,struct google::CheckOpString const &))" wurde importiert.
+Calibration.obj : warning LNK4049: Lokal definiertes Symbol "??0LogMessageFatal@google@@QEAA@PEBDHAEBUCheckOpString@1@@Z (public: __cdecl google::LogMessageFatal::LogMessageFatal(char const *,int,struct google::CheckOpString const &))" wurde importiert.
+OneCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??1LogMessageFatal@google@@QEAA@XZ (public: __cdecl google::LogMessageFatal::~LogMessageFatal(void))" wurde importiert.
+TwoCameraSpherical.obj : warning LNK4049: Lokal definiertes Symbol "??1LogMessageFatal@google@@QEAA@XZ (public: __cdecl google::LogMessageFatal::~LogMessageFatal(void))" wurde importiert.
+Calibration.obj : warning LNK4049: Lokal definiertes Symbol "??1LogMessageFatal@google@@QEAA@XZ (public: __cdecl google::LogMessageFatal::~LogMessageFatal(void))" wurde importiert.
+borelib.lib(algo.obj) : warning LNK4099: PDB "borelib.pdb" wurde nicht mit "borelib.lib(algo.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\borelib.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+borelib.lib(stdafx.obj) : warning LNK4099: PDB "borelib.pdb" wurde nicht mit "borelib.lib(stdafx.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\borelib.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+borelib.lib(elifitter.obj) : warning LNK4099: PDB "borelib.pdb" wurde nicht mit "borelib.lib(elifitter.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\borelib.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(array_utils.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(array_utils.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(blas.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(blas.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_evaluate_preparer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_evaluate_preparer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_jacobian_writer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_jacobian_writer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_jacobi_preconditioner.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_jacobi_preconditioner.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_random_access_dense_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_random_access_dense_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_random_access_diagonal_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_random_access_diagonal_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_random_access_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_random_access_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_random_access_sparse_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_random_access_sparse_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_sparse_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_sparse_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(block_structure.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(block_structure.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(callbacks.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(callbacks.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(cgnr_solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(cgnr_solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(compressed_row_jacobian_writer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(compressed_row_jacobian_writer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(compressed_row_sparse_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(compressed_row_sparse_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(conjugate_gradients_solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(conjugate_gradients_solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(coordinate_descent_minimizer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(coordinate_descent_minimizer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(corrector.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(corrector.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(dense_normal_cholesky_solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(dense_normal_cholesky_solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(dense_qr_solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(dense_qr_solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(dense_sparse_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(dense_sparse_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(detect_structure.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(detect_structure.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(dogleg_strategy.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(dogleg_strategy.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(dynamic_compressed_row_jacobian_writer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(dynamic_compressed_row_jacobian_writer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(dynamic_compressed_row_sparse_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(dynamic_compressed_row_sparse_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(evaluator.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(evaluator.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(file.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(file.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_2_2.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_2_2.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_2_3.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_2_3.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_2_4.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_2_4.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_2_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_2_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_3_3.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_3_3.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_3_4.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_3_4.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_3_6.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_3_6.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_3_9.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_3_9.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_3_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_3_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_4_3.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_4_3.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_4_4.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_4_4.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_4_8.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_4_8.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_4_9.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_4_9.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_4_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_4_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_2_d_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_2_d_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_4_4_2.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_4_4_2.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_4_4_3.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_4_4_3.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_4_4_4.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_4_4_4.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_4_4_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_4_4_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view_d_d_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view_d_d_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_2_2.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_2_2.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_2_3.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_2_3.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_2_4.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_2_4.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_2_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_2_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_3_3.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_3_3.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_3_4.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_3_4.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_3_6.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_3_6.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_3_9.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_3_9.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_3_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_3_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_4_3.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_4_3.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_4_4.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_4_4.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_4_8.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_4_8.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_4_9.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_4_9.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_4_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_4_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_2_d_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_2_d_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_4_4_2.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_4_4_2.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_4_4_3.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_4_4_3.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_4_4_4.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_4_4_4.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_4_4_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_4_4_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator_d_d_d.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator_d_d_d.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(gradient_checker.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(gradient_checker.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(gradient_checking_cost_function.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(gradient_checking_cost_function.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(implicit_schur_complement.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(implicit_schur_complement.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(is_close.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(is_close.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(iterative_schur_complement_solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(iterative_schur_complement_solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(lapack.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(lapack.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(levenberg_marquardt_strategy.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(levenberg_marquardt_strategy.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(linear_least_squares_problems.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(linear_least_squares_problems.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(linear_operator.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(linear_operator.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(linear_solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(linear_solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(line_search.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(line_search.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(line_search_direction.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(line_search_direction.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(line_search_minimizer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(line_search_minimizer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(line_search_preprocessor.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(line_search_preprocessor.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(low_rank_inverse_hessian.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(low_rank_inverse_hessian.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(minimizer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(minimizer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(parameter_block_ordering.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(parameter_block_ordering.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(partitioned_matrix_view.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(partitioned_matrix_view.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(polynomial.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(polynomial.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(preconditioner.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(preconditioner.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(preprocessor.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(preprocessor.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(problem.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(problem.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(problem_impl.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(problem_impl.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(program.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(program.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(reorder_program.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(reorder_program.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(residual_block.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(residual_block.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(residual_block_utils.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(residual_block_utils.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_complement_solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_complement_solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_eliminator.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_eliminator.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(schur_jacobi_preconditioner.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(schur_jacobi_preconditioner.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(scratch_evaluate_preparer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(scratch_evaluate_preparer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(solver_utils.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(solver_utils.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(sparse_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(sparse_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(sparse_normal_cholesky_solver.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(sparse_normal_cholesky_solver.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(stringprintf.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(stringprintf.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(triplet_sparse_matrix.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(triplet_sparse_matrix.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(trust_region_minimizer.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(trust_region_minimizer.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(trust_region_preprocessor.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(trust_region_preprocessor.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(trust_region_step_evaluator.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(trust_region_step_evaluator.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(trust_region_strategy.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(trust_region_strategy.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(types.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(types.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+ceres_static.lib(wall_time.obj) : warning LNK4099: PDB "ceres_static.pdb" wurde nicht mit "ceres_static.lib(wall_time.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\ceres_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+libglog_static.lib(logging.obj) : warning LNK4099: PDB "libglog_static.pdb" wurde nicht mit "libglog_static.lib(logging.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\libglog_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+libglog_static.lib(port.obj) : warning LNK4099: PDB "libglog_static.pdb" wurde nicht mit "libglog_static.lib(port.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\libglog_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+libglog_static.lib(raw_logging.obj) : warning LNK4099: PDB "libglog_static.pdb" wurde nicht mit "libglog_static.lib(raw_logging.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\libglog_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+libglog_static.lib(utilities.obj) : warning LNK4099: PDB "libglog_static.pdb" wurde nicht mit "libglog_static.lib(utilities.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\libglog_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+libglog_static.lib(vlog_is_on.obj) : warning LNK4099: PDB "libglog_static.pdb" wurde nicht mit "libglog_static.lib(vlog_is_on.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\libglog_static.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+qtmain.lib(qtmain_win.obj) : warning LNK4099: PDB "qtmain.pdb" wurde nicht mit "qtmain.lib(qtmain_win.obj)" oder an "D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\qtmain.pdb" gefunden; Objekt wird verknⁿpft, als ob keine Debuginformationen vorhanden wΣren.
+  GoalkeeperAnalysis.vcxproj -> D:\RemoteEye2019\RemoteEye\x64\RelWithDebugInfo\GoalkeeperAnalysis.exe

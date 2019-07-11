@@ -1,0 +1,73 @@
+﻿  Moc'ing src\CalibrationDialog.h...
+  Moc'ing src\GoalkeeperAnalysis.h...
+  Moc'ing src\InputFeaturesDisplay.h...
+  Moc'ing src\LiveGazeDisplay.h...
+  Rcc'ing GoalkeeperAnalysis.qrc...
+RCC : warning : No resources in 'G:\Git_repositories\remoteEye-ng\RemoteEye\GoalkeeperAnalysis\GoalkeeperAnalysis.qrc'.
+  
+  Uic'ing src\CalibrationDialog.ui...
+  Uic'ing src\GoalkeeperAnalysis.ui...
+  GazeEstimationTypes.cpp
+g:\git_repositories\remoteeye-ng\gazeestimationcpp\mathtypes.hpp(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "Eigen/Core": No such file or directory
+  GenericCalibration.cpp
+g:\git_repositories\remoteeye-ng\gazeestimationcpp\mathtypes.hpp(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "Eigen/Core": No such file or directory
+  MathTypes.cpp
+g:\git_repositories\remoteeye-ng\gazeestimationcpp\mathtypes.hpp(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "Eigen/Core": No such file or directory
+  OneCameraSpherical.cpp
+g:\git_repositories\remoteeye-ng\gazeestimationcpp\mathtypes.hpp(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "Eigen/Core": No such file or directory
+  TwoCameraSpherical.cpp
+g:\git_repositories\remoteeye-ng\gazeestimationcpp\mathtypes.hpp(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "Eigen/Core": No such file or directory
+  moc_CalibrationDialog.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\calibrationdialog.h(13): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "boost/thread/thread_only.hpp": No such file or directory
+  moc_GoalkeeperAnalysis.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\constants.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/videoio/videoio_c.h": No such file or directory
+  moc_InputFeaturesDisplay.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  moc_LiveGazeDisplay.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  MAFilter.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\mafilter.h(3): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "boost\circular_buffer.hpp": No such file or directory
+  main.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\constants.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/videoio/videoio_c.h": No such file or directory
+  CalibrationDialog.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\calibrationdialog.h(13): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "boost/thread/thread_only.hpp": No such file or directory
+  Calibration.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  CalibrationPatternGenerators.cpp
+  CalibrationPointAggregates.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  CalibrationTrainer.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  DetectorCode.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\detectorcode.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  GazeEstimationAdapter.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  GoalkeeperAnalysis.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\constants.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/videoio/videoio_c.h": No such file or directory
+  InputFeaturesDisplay.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  Code wird generiert...
+  Kompilieren...
+  IntermediateTypes.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  LiveGazeDisplay.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  OutputMethods.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\intermediatetypes.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  ProfilingMonitor.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\utils.h(25): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/imgproc.hpp": No such file or directory
+  PupilDetection.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\pupildetection.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  UEyePollingThread.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\videocapturesession.h(7): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  VideoCaptureSession.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\videocapturesession.h(7): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  VideoFilePollingThread.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\src\videocapturesession.h(7): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/core.hpp": No such file or directory
+  VideoWriterThread.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\constants.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/videoio/videoio_c.h": No such file or directory
+  uEyeCamera.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\ueyecamera.h(4): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "uEye.h": No such file or directory
+  utils.cpp
+g:\git_repositories\remoteeye-ng\remoteeye\goalkeeperanalysis\utils.h(25): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "opencv2/imgproc.hpp": No such file or directory
+  Code wird generiert...

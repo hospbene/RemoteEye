@@ -1,0 +1,3 @@
+1. Videofile can not be written on disc.
+	- if you are not under C: Partition this might be a problem of permissions in windows.
+	  By giving read/write/vollzugriff for all users for the main folder (GoalkeeperAnalysis) this problem is resolved.

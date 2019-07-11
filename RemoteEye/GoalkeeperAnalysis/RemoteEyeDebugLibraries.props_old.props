@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <LibraryPath>G:\Git_repositories\remoteEye-ng\dependencies\ceres\ceres-windows\x64\Debug;F:\RemoteEye\dependencies\openCV\build\x64\vc14\lib;F:\RemoteEye\dependencies\uEye\Develop\Lib;$(OPENCV_DIR)\build\x64\vc14\lib;$(UEYE_DIR)\Develop\DynamicDll;$(UEYE_DIR)\Develop\Lib;$(QTDIR)\lib;$(BOOST_DIR_1_64)\stage\x64\lib;$(BOOST_DIR)\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>opencv_world310d.lib;uEye_api_64.lib;ueye_tools_64.lib;ceres_static.lib;libglog_static.lib;qtmain.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Multimedia.lib;Qt5MultimediaWidgets.lib;Qt5Widgets.lib;borelib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
